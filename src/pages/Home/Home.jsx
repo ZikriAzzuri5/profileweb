@@ -24,7 +24,9 @@ export const Home = () => {
                 individu dan perusahaan, siap membantu mewujudkan visi digital
                 Anda.
               </p>
-              <button className="btn btn-dark btn-lg fw-medium">Hire Us!</button>
+              <button className="btn btn-dark btn-lg fw-medium">
+                Hire Us!
+              </button>
             </div>
             <div className="d-none d-lg-block col-lg-6 text-center">
               <img src={heroImage} alt="Studio" className="img-fluid" />
@@ -67,7 +69,10 @@ export const Home = () => {
                   bidang teknologi.
                 </div>
               </div>
-              <a href="#" className="btn btn-dark btn-lg fw-medium align-self-start mb-3">
+              <a
+                href="#"
+                className="btn btn-dark btn-lg fw-medium align-self-start mb-3"
+              >
                 Explore Now
               </a>
             </div>
@@ -90,10 +95,10 @@ export const Home = () => {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-up-right"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="icon icon-tabler icons-tabler-outline icon-tabler-arrow-up-right"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M17 7l-10 10" />
@@ -101,9 +106,9 @@ export const Home = () => {
               </svg>
             </a>
           </div>
-          <div class="card border-0 mb-5">
-            <div class="row g-0">
-              <div class="col-md-7">
+          <div className="card border-0 mb-5">
+            <div className="row g-0">
+              <div className="col-md-7">
                 {/* Need Media Query For Image Rounded Side Responsive */}
                 <img
                   src={project1}
@@ -112,7 +117,7 @@ export const Home = () => {
                   style={{ width: "100%", height: "100%", maxHeight: "533px" }}
                 />
               </div>
-              <div class="col-md-5">
+              <div className="col-md-5">
                 <div className="d-flex flex-column px-5 mt-4">
                   <h1 className="fw-bold text-dark mt-lg-4">ServBIX</h1>
                   <p className="text-secondary mb-3">Web Development</p>
@@ -156,11 +161,14 @@ export const Home = () => {
               </h1>
             </div>
             <div className="col-lg-8">
-              <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
+              <div
+                className="accordion accordion-flush"
+                id="accordionFlushExample"
+              >
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
                     <button
-                      class="accordion-button collapsed"
+                      className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseOne"
@@ -172,20 +180,20 @@ export const Home = () => {
                   </h2>
                   <div
                     id="flush-collapseOne"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       Placeholder content for this accordion, which is intended
                       to demonstrate the <code>.accordion-flush</code> class.
                       This is the first item's accordion body.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
                     <button
-                      class="accordion-button"
+                      className="accordion-button"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseTwo"
@@ -197,18 +205,20 @@ export const Home = () => {
                   </h2>
                   <div
                     id="flush-collapseTwo"
-                    class="accordion-collapse collapse show"
+                    className="accordion-collapse collapse show"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
-                    Before starting the project, it is better to send a Project Requirements document which will later contain details of the features, prices, and processing time.
+                    <div className="accordion-body">
+                      Before starting the project, it is better to send a
+                      Project Requirements document which will later contain
+                      details of the features, prices, and processing time.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
                     <button
-                      class="accordion-button collapsed"
+                      className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseThree"
@@ -220,10 +230,10 @@ export const Home = () => {
                   </h2>
                   <div
                     id="flush-collapseThree"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       Placeholder content for this accordion, which is intended
                       to demonstrate the <code>.accordion-flush</code> class.
                       This is the third item's accordion body. Nothing more
@@ -234,10 +244,10 @@ export const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
                     <button
-                      class="accordion-button collapsed"
+                      className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFour"
@@ -249,10 +259,10 @@ export const Home = () => {
                   </h2>
                   <div
                     id="flush-collapseFour"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       Placeholder content for this accordion, which is intended
                       to demonstrate the <code>.accordion-flush</code> class.
                       This is the third item's accordion body. Nothing more
@@ -263,10 +273,10 @@ export const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
                     <button
-                      class="accordion-button collapsed"
+                      className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFive"
@@ -278,10 +288,10 @@ export const Home = () => {
                   </h2>
                   <div
                     id="flush-collapseFive"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       Placeholder content for this accordion, which is intended
                       to demonstrate the <code>.accordion-flush</code> class.
                       This is the third item's accordion body. Nothing more
@@ -300,9 +310,18 @@ export const Home = () => {
       <section className="bg-dark bg-wave">
         <div className="container">
           <div className="max-w-md mx-auto py-5 text-center">
-            <h1 className="verybig-title fw-bold lh-base mt-4 mb-4">Build Something Impactful Today, Better.</h1>
-            <p className="text-light fs-5 lh-base mb-5">We’re offer services that deliver exceptional results. With years of experience, strong work ethics, and attention to detail, Developeight is the freelancer you can trust to exceed your expectations.</p>
-            <a href="#" className="btn btn-light btn-lg fw-semibold mb-5">Hire Us!</a>
+            <h1 className="verybig-title fw-bold lh-base mt-4 mb-4">
+              Build Something Impactful Today, Better.
+            </h1>
+            <p className="text-light fs-5 lh-base mb-5">
+              We’re offer services that deliver exceptional results. With years
+              of experience, strong work ethics, and attention to detail,
+              Developeight is the freelancer you can trust to exceed your
+              expectations.
+            </p>
+            <a href="#" className="btn btn-light btn-lg fw-semibold mb-5">
+              Hire Us!
+            </a>
           </div>
         </div>
       </section>

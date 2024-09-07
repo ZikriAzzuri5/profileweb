@@ -68,7 +68,11 @@ h6 {
 .verybig-title {
   font-size: 3.75rem;
   font-weight: 700;
-  background: linear-gradient(92.41deg, rgba(75, 136, 162, 1), rgba(255, 249, 251, 1));
+  background: linear-gradient(
+    92.41deg,
+    rgba(75, 136, 162, 1),
+    rgba(255, 249, 251, 1)
+  );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
