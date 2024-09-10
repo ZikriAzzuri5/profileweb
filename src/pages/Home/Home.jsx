@@ -9,7 +9,7 @@ import person1 from "../../assets/person-1.jpg";
 export const Home = () => {
   return (
     <>
-      <section className="hero d-flex align-items-center py-5">
+      <section id="home" className="hero d-flex align-items-center py-5">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -34,7 +34,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className="bg-secondary">
+      <section id="about" className="bg-secondary">
         <div className="container">
           <div className="row align-items-center py-5">
             <div className="col-lg-6">
@@ -79,7 +79,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className="container">
+      <section id="projects" className="container">
         <div className="py-5">
           <div className="d-flex mb-5 justify-content-between align-items-center">
             <div>
@@ -151,7 +151,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className="container">
+      <section id="faq" className="container">
         <div className="py-5">
           <div className="row">
             <div className="col-lg-4">
