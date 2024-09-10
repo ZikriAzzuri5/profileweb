@@ -1,0 +1,35 @@
+[33mcommit 97e396b73297f7f84598e870a21ea20669ef1654[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;32mresponsive[m[33m)[m
+Author: Zikri Azzuri <zikriazzuri5@gmail.com>
+Date:   Tue Sep 10 07:51:53 2024 +0700
+
+    tambah fitur link ke section sama styling
+
+[33mcommit 3235fa4c181944965c3dca36d103ebceb17af860[m
+Author: Zikri Azzuri <zikriazzuri5@gmail.com>
+Date:   Sat Sep 7 20:36:52 2024 +0700
+
+    add 404 page
+
+[33mcommit e705648a420750a97fe6e82e4c3e465989c44866[m
+Author: Zikri Azzuri <zikriazzuri5@gmail.com>
+Date:   Sat Sep 7 19:58:22 2024 +0700
+
+    bug fixed
+
+[33mcommit 0086f9b0919568400560a41df02fc7a86684f28b[m
+Author: unknown <>
+Date:   Sat Sep 7 17:41:14 2024 +0700
+
+    feat: update navbar and footer, creating home page
+
+[33mcommit 74f833b210e99bd8a964414562a66905c469d0a5[m
+Author: Zikri Azzuri <zikriazzuri5@gmail.com>
+Date:   Fri Sep 6 22:11:46 2024 +0700
+
+    update styling using scss, structuring folder, create navbar
+
+[33mcommit 9edaf38311fb439f5aaba4e16b9276a54a92059a[m
+Author: Zikri Azzuri <zikriazzuri5@gmail.com>
+Date:   Sat Aug 31 20:50:22 2024 +0700
+
+    first commit

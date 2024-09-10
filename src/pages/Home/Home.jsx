@@ -307,7 +307,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      {/* <section className="bg-dark bg-wave">
+      <section className="bg-dark bg-wave">
         <div className="container">
           <div className="max-w-md mx-auto py-5 text-center">
             <h1 className="verybig-title fw-bold lh-base mt-4 mb-4">
@@ -324,7 +324,7 @@ export const Home = () => {
             </a>
           </div>
         </div>
-      </section> */}
+      </section>
     </>
   );
 };
