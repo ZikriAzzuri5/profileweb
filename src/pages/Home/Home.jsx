@@ -16,7 +16,7 @@ export const Home = () => {
               <h1 className="fw-bold lh-base">
                 Menyederhanakan{" "}
                 <span className="d-inline-block text-dark">Inovasi,</span>
-                Menguatkan{" "}
+                {" "}Menguatkan{" "}
                 <span className="d-inline-block text-dark">Digital Anda.</span>
               </h1>
               <p className="text-body-secondary lh-lg">
@@ -112,7 +112,7 @@ export const Home = () => {
                 {/* Need Media Query For Image Rounded Side Responsive */}
                 <img
                   src={project1}
-                  className="img-fluid object-fit-cover rounded-start"
+                  className="img-fluid object-fit-cover thumbnail"
                   alt="..."
                   style={{ width: "100%", height: "100%", maxHeight: "533px" }}
                 />

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import logo from "../../assets/logo.svg";
 
 export const Navbar = () => {
-  const [activeSection, setActiveSection] = useState("Home");
+  const [activeSection, setActiveSection] = useState("home");
 
   const handleSetActive = (section) => {
     setActiveSection(section);
@@ -12,7 +12,7 @@ export const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-light sticky-top">
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img src={logo} alt="Bootstrap" />
+          <img src={logo} alt="Logo" />
         </a>
         <button
           className="navbar-toggler"
@@ -29,9 +29,8 @@ export const Navbar = () => {
           <ul className="navbar-nav ms-auto fw-semibold">
             <li className="nav-item me-4">
               <a
-                className={`nav-link ${
-                  activeSection === "home" ? "active fw-bold" : ""
-                } `}
+                className={`nav-link ${activeSection === "home" ? "active fw-bold" : ""
+                  } `}
                 href="#home"
                 onClick={() => handleSetActive("home")}
               >
@@ -40,9 +39,8 @@ export const Navbar = () => {
             </li>
             <li className="nav-item me-4">
               <a
-                className={`nav-link ${
-                  activeSection === "about" ? "active fw-bold" : ""
-                } `}
+                className={`nav-link ${activeSection === "about" ? "active fw-bold" : ""
+                  } `}
                 href="#about"
                 onClick={() => handleSetActive("about")}
               >
@@ -51,9 +49,8 @@ export const Navbar = () => {
             </li>
             <li className="nav-item me-4">
               <a
-                className={`nav-link ${
-                  activeSection === "projects" ? "active fw-bold" : ""
-                } `}
+                className={`nav-link ${activeSection === "projects" ? "active fw-bold" : ""
+                  } `}
                 href="#projects"
                 onClick={() => handleSetActive("projects")}
               >
@@ -62,9 +59,8 @@ export const Navbar = () => {
             </li>
             <li className="nav-item me-4">
               <a
-                className={`nav-link ${
-                  activeSection === "faq" ? "active fw-bold" : ""
-                } `}
+                className={`nav-link ${activeSection === "faq" ? "active fw-bold" : ""
+                  } `}
                 href="#faq"
                 onClick={() => handleSetActive("faq")}
               >
