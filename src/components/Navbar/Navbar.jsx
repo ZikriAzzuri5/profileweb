@@ -1,13 +1,15 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../../assets/logo.svg";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
-  const [activeSection, setActiveSection] = useState("home");
+  const currentRoute = window.location.pathname === "/" ? "home" : window.location.pathname.replace("/", "");
+  const [activeSection, setActiveSection] = useState(currentRoute);
 
   const handleSetActive = (section) => {
     setActiveSection(section);
   };
-
+ 
   return (
     <nav className="navbar navbar-expand-lg bg-light sticky-top">
       <div className="container">
@@ -28,47 +30,81 @@ export const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto fw-semibold">
             <li className="nav-item me-4">
-              <a
-                className={`nav-link ${activeSection === "home" ? "active fw-bold" : ""
+              {currentRoute !== "home" ? (
+                <Link to="/" className="nav-link" onClick={() => handleSetActive("home")}>
+                  Home
+                </Link>
+              ) : (
+                <a
+                  className={`nav-link ${
+                    activeSection === "home" ? "active fw-bold" : ""
                   } `}
-                href="#home"
-                onClick={() => handleSetActive("home")}
-              >
-                Home
-              </a>
+                  href="#home"
+                  onClick={() => handleSetActive("home")}
+                >
+                  Home
+                </a>
+              )}
             </li>
             <li className="nav-item me-4">
-              <a
-                className={`nav-link ${activeSection === "about" ? "active fw-bold" : ""
+              {currentRoute !== "home" ? (
+                <Link to="/" className="nav-link" onClick={() => handleSetActive("home")}>
+                  About
+                </Link>
+              ) : (
+                <a
+                  className={`nav-link ${
+                    activeSection === "about" ? "active fw-bold" : ""
                   } `}
-                href="#about"
-                onClick={() => handleSetActive("about")}
-              >
-                About
-              </a>
+                  href="#about"
+                  onClick={() => handleSetActive("about")}
+                >
+                  About
+                </a>
+              )}
             </li>
             <li className="nav-item me-4">
-              <a
-                className={`nav-link ${activeSection === "projects" ? "active fw-bold" : ""
+              {currentRoute !== "home" ? (
+                <Link to="/" className={`nav-link ${
+                  currentRoute === "projects" ? "active fw-bold" : ""
+                } `} onClick={() => handleSetActive("home")}>
+                  Projects
+                </Link>
+              ) : (
+                <a
+                  className={`nav-link ${
+                    activeSection === "projects" ? "active fw-bold" : ""
                   } `}
-                href="#projects"
-                onClick={() => handleSetActive("projects")}
-              >
-                Projects
-              </a>
+                  href="#projects"
+                  onClick={() => handleSetActive("projects")}
+                >
+                  Projects
+                </a>
+              )}
             </li>
             <li className="nav-item me-4">
-              <a
-                className={`nav-link ${activeSection === "faq" ? "active fw-bold" : ""
+              {currentRoute !== "home" ? (
+                <Link to="/" className="nav-link" onClick={() => handleSetActive("home")}>
+                  FAQ
+                </Link>
+              ) : (
+                <a
+                  className={`nav-link ${
+                    activeSection === "faq" ? "active fw-bold" : ""
                   } `}
-                href="#faq"
-                onClick={() => handleSetActive("faq")}
-              >
-                FAQ
-              </a>
+                  href="#faq"
+                  onClick={() => handleSetActive("faq")}
+                >
+                  FAQ
+                </a>
+              )}
             </li>
             <li className="nav-item me-4">
-              <a className="nav-link">Contacts</a>
+              <Link to="/contact" className={`nav-link ${
+                    activeSection === "contact" ? "active fw-bold" : ""
+                  } `} onClick={() => handleSetActive("contact")}>
+                Contact
+              </Link>
             </li>
           </ul>
         </div>

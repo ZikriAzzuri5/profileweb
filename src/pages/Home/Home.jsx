@@ -5,6 +5,7 @@ import project1 from "../../assets/project-1.png";
 import star from "../../assets/star.svg";
 import illust1 from "../../assets/illust-1.svg";
 import person1 from "../../assets/person-1.jpg";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
@@ -24,9 +25,9 @@ export const Home = () => {
                 individu dan perusahaan, siap membantu mewujudkan visi digital
                 Anda.
               </p>
-              <button className="btn btn-dark btn-lg fw-medium">
+              <Link to="/contact" className="btn btn-dark btn-lg fw-medium">
                 Hire Us!
-              </button>
+              </Link>
             </div>
             <div className="d-none d-lg-block col-lg-6 text-center">
               <img src={heroImage} alt="Studio" className="img-fluid" />
@@ -86,7 +87,7 @@ export const Home = () => {
               <p className="mb-3 fw-semibold fs-5">Showcase</p>
               <h1 className="fw-bold text-dark">Our Best Projects</h1>
             </div>
-            <a href="#" className="fw-semibold text-dark">
+            <a href="/projects" className="fw-semibold text-dark">
               View All
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +110,6 @@ export const Home = () => {
           <div className="card border-0 mb-5">
             <div className="row g-0">
               <div className="col-md-7">
-                {/* Need Media Query For Image Rounded Side Responsive */}
                 <img
                   src={project1}
                   className="img-fluid object-fit-cover thumbnail"
