@@ -1,0 +1,67 @@
+[33mcommit 79b1f9e33d355ed7489e2edfb83bc4ab04f8021e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: c526017 1f614ce
+Author: Zikri Azzuri <zikriazzuri5@gmail.com>
+Date:   Wed Sep 11 19:44:22 2024 +0700
+
+    Merge branch 'master' of https://github.com/ZikriAzzuri5/profileweb
+
+[33mcommit 1f614ce842d2c2b880e2801b314036125c1df4d3[m
+Author: Ahmad Salim <salimahmad14823@gmail.com>
+Date:   Wed Sep 11 12:26:05 2024 +0700
+
+    feat: project, contact page, modified navbar link
+
+[33mcommit c5260170ed55d4b5acfc70cc85fda92924b65cd0[m
+Merge: 08b82c6 39e43e4
+Author: Zikri Azzuri <zikriazzuri5@gmail.com>
+Date:   Tue Sep 10 18:15:13 2024 +0700
+
+    Merge branch 'master' of https://github.com/ZikriAzzuri5/profileweb
+
+[33mcommit 08b82c6f7ac378b90fe81c0dbbb6bb822145c021[m
+Author: Zikri Azzuri <zikriazzuri5@gmail.com>
+Date:   Tue Sep 10 18:14:35 2024 +0700
+
+    update footer
+
+[33mcommit 39e43e429bc56c6923947fd55c230d583bd6130e[m
+Author: Ahmad Salim <salimahmad14823@gmail.com>
+Date:   Tue Sep 10 13:50:24 2024 +0700
+
+    fix: minor bugs
+
+[33mcommit 97e396b73297f7f84598e870a21ea20669ef1654[m
+Author: Zikri Azzuri <zikriazzuri5@gmail.com>
+Date:   Tue Sep 10 07:51:53 2024 +0700
+
+    tambah fitur link ke section sama styling
+
+[33mcommit 3235fa4c181944965c3dca36d103ebceb17af860[m
+Author: Zikri Azzuri <zikriazzuri5@gmail.com>
+Date:   Sat Sep 7 20:36:52 2024 +0700
+
+    add 404 page
+
+[33mcommit e705648a420750a97fe6e82e4c3e465989c44866[m
+Author: Zikri Azzuri <zikriazzuri5@gmail.com>
+Date:   Sat Sep 7 19:58:22 2024 +0700
+
+    bug fixed
+
+[33mcommit 0086f9b0919568400560a41df02fc7a86684f28b[m
+Author: unknown <>
+Date:   Sat Sep 7 17:41:14 2024 +0700
+
+    feat: update navbar and footer, creating home page
+
+[33mcommit 74f833b210e99bd8a964414562a66905c469d0a5[m
+Author: Zikri Azzuri <zikriazzuri5@gmail.com>
+Date:   Fri Sep 6 22:11:46 2024 +0700
+
+    update styling using scss, structuring folder, create navbar
+
+[33mcommit 9edaf38311fb439f5aaba4e16b9276a54a92059a[m
+Author: Zikri Azzuri <zikriazzuri5@gmail.com>
+Date:   Sat Aug 31 20:50:22 2024 +0700
+
+    first commit

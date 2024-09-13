@@ -15,6 +15,7 @@ export const Home = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <h1 className="fw-bold lh-base">
+<<<<<<< HEAD
                 Menyederhanakan{" "}
                 <span className="d-inline-block text-dark">Inovasi,</span>{" "}
                 Menguatkan{" "}
@@ -24,6 +25,17 @@ export const Home = () => {
                 Layanan pengembangan aplikasi dan web yang disesuaikan untuk
                 individu dan perusahaan, siap membantu mewujudkan visi digital
                 Anda.
+=======
+                Simplifying {" "}
+                <span className="d-inline-block text-dark">Innovation,</span>
+                {" "}Powering{" "}
+                <span className="d-inline-block text-dark">Your Digital.</span>
+              </h1>
+              <p className="text-body-secondary lh-lg">
+                Customized web and app development services for
+                individuals and companies, ready to help realize the digital vision
+                You.
+>>>>>>> 0093dcef10802905148091c874834ae337206efd
               </p>
               <Link to="/contact" className="btn btn-dark btn-lg fw-medium">
                 Hire Us!
@@ -50,6 +62,7 @@ export const Home = () => {
               </h1>
               <div className="flex-column mb-4">
                 <div className="d-flex gap-2 mb-4 align-items-center fw-medium fs-5">
+<<<<<<< HEAD
                   <img src={checked} alt="Icon" /> Developeight adalah
                   perusahaan pengembang software.
                 </div>
@@ -68,6 +81,21 @@ export const Home = () => {
                 <div className="d-flex gap-2 align-items-center fw-medium fs-5">
                   <img src={checked} alt="Icon" /> Didukung oleh tim ahli di
                   bidang teknologi.
+=======
+                  <img src={checked} alt="Icon" /> Developeight is a software development company.
+                </div>
+                <div className="d-flex gap-2 mb-4 align-items-center fw-medium fs-5">
+                  <img src={checked} alt="Icon" /> Has more than 3 years experience in the industry.
+                </div>
+                <div className="d-flex gap-2 mb-4 align-items-center fw-medium fs-5">
+                  <img src={checked} alt="Icon" /> Specialization in software development, web and mobile applications.
+                </div>
+                <div className="d-flex gap-2 mb-4 align-items-center fw-medium fs-5">
+                  <img src={checked} alt="Icon" /> Focus on solutions tailored to business needs.
+                </div>
+                <div className="d-flex gap-2 align-items-center fw-medium fs-5">
+                  <img src={checked} alt="Icon" /> Supported by a team of experts in the field of technology.
+>>>>>>> 0093dcef10802905148091c874834ae337206efd
                 </div>
               </div>
               <a
@@ -184,9 +212,25 @@ export const Home = () => {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div className="accordion-body">
+<<<<<<< HEAD
                       Placeholder content for this accordion, which is intended
                       to demonstrate the <code>.accordion-flush</code> class.
                       This is the first item's accordion body.
+=======
+                    <b>1. Understanding Your Needs</b> <br/>
+                    We begin by thoroughly understanding your business goals and project requirements to tailor a solution that fits perfectly.<br/>
+                    <br/>
+                    <b>2. Planning and Design</b> <br/>
+                    Our team crafts a detailed plan and designs user-friendly interfaces to align with your vision and functionality needs.<br/><br/>
+
+                    <b>3. Development and Testing</b> <br/>
+                    Utilizing cutting-edge technology, we develop robust solutions while continuously testing to ensure seamless performance.<br/><br/>
+
+                    <b>4. Deployment and Support</b> <br/>
+                    After rigorous testing, we deploy the solution and provide ongoing support to ensure smooth operations post-launch.<br/><br/>
+
+                    This approach allows us to deliver tailored software solutions that drive growth and efficiency for your business.
+>>>>>>> 0093dcef10802905148091c874834ae337206efd
                     </div>
                   </div>
                 </div>
@@ -209,9 +253,13 @@ export const Home = () => {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div className="accordion-body">
+<<<<<<< HEAD
                       Before starting the project, it is better to send a
                       Project Requirements document which will later contain
                       details of the features, prices, and processing time.
+=======
+                      Before starting a project, clients should prepare a Project Requirements Document. This document will contain details of the desired features, estimated costs, and estimated construction time. This information will be very helpful in preparing project plans that are more precise and according to needs, so that the final results can satisfy all parties.
+>>>>>>> 0093dcef10802905148091c874834ae337206efd
                     </div>
                   </div>
                 </div>
@@ -234,6 +282,7 @@ export const Home = () => {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div className="accordion-body">
+<<<<<<< HEAD
                       Placeholder content for this accordion, which is intended
                       to demonstrate the <code>.accordion-flush</code> class.
                       This is the third item's accordion body. Nothing more
@@ -241,6 +290,9 @@ export const Home = () => {
                       filling up the space to make it look, at least at first
                       glance, a bit more representative of how this would look
                       in a real-world application.
+=======
+                      Yes, we are happy to accept long-term projects. As a software house, we want to build long-term relationships with our clients by providing customized, high-quality software solutions. We focus on understanding your needs and ensuring consistent communication throughout our team is committed to meeting deadlines and adapting to evolving requirements, ensuring the long-term success of your initiatives.
+>>>>>>> 0093dcef10802905148091c874834ae337206efd
                     </div>
                   </div>
                 </div>
@@ -263,6 +315,7 @@ export const Home = () => {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div className="accordion-body">
+<<<<<<< HEAD
                       Placeholder content for this accordion, which is intended
                       to demonstrate the <code>.accordion-flush</code> class.
                       This is the third item's accordion body. Nothing more
@@ -270,6 +323,9 @@ export const Home = () => {
                       filling up the space to make it look, at least at first
                       glance, a bit more representative of how this would look
                       in a real-world application.
+=======
+                      I can work in the office, but in the context of a software house, I am very supportive of working, including remote options. With today's technology and collaboration tools, work can be done well from anywhere, as long as communication remains smooth and targets are met. If necessary, I am also available to work from the office to support the team more effectively.
+>>>>>>> 0093dcef10802905148091c874834ae337206efd
                     </div>
                   </div>
                 </div>
@@ -292,6 +348,7 @@ export const Home = () => {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div className="accordion-body">
+<<<<<<< HEAD
                       Placeholder content for this accordion, which is intended
                       to demonstrate the <code>.accordion-flush</code> class.
                       This is the third item's accordion body. Nothing more
@@ -299,6 +356,9 @@ export const Home = () => {
                       filling up the space to make it look, at least at first
                       glance, a bit more representative of how this would look
                       in a real-world application.
+=======
+                      You should hire us because we want to contribute to the growth of the software house by bringing my expertise in software development, problem solving skills and adaptability to new technologies. While your company is still in its early stages, I can help build a strong technical foundation, collaborate effectively with the team, and ensure that we deliver high-quality solutions. My passion for innovation and commitment to excellence will support your vision as we face the challenges of a competitive marketplace.
+>>>>>>> 0093dcef10802905148091c874834ae337206efd
                     </div>
                   </div>
                 </div>
@@ -307,6 +367,27 @@ export const Home = () => {
           </div>
         </div>
       </section>
+<<<<<<< HEAD
+=======
+      {/* <section className="bg-dark bg-wave">
+        <div className="container">
+          <div className="max-w-md mx-auto py-5 text-center">
+            <h1 className="verybig-title fw-bold lh-base mt-4 mb-4">
+              Build Something Impactful Today, Better.
+            </h1>
+            <p className="text-light fs-5 lh-base mb-5">
+              We’re offer services that deliver exceptional results. With years
+              of experience, strong work ethics, and attention to detail,
+              Developeight is the freelancer you can trust to exceed your
+              expectations.
+            </p>
+            <a href="#" className="btn btn-light btn-lg fw-semibold mb-5">
+              Hire Us!
+            </a>
+          </div>
+        </div>
+      </section> */}
+>>>>>>> 0093dcef10802905148091c874834ae337206efd
     </>
   );
 };
