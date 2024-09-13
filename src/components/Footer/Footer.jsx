@@ -4,11 +4,28 @@ export const Footer = () => {
   return (
     <div className="bg-dark">
       <div className="container">
+        <section className="bg-dark bg-wave">
+          <div className="container">
+            <div className="max-w-md mx-auto py-5 text-center">
+              <h1 className="verybig-title fw-bold lh-base mt-4 mb-4">
+                Build Something Impactful Today, Better.
+              </h1>
+              <p className="text-light fs-5 lh-base mb-5">
+                We’re offer services that deliver exceptional results. With
+                years of experience, strong work ethics, and attention to
+                detail, Developeight is the freelancer you can trust to exceed
+                your expectations.
+              </p>
+              <a href="#" className="btn btn-light btn-lg fw-semibold mb-5">
+                Hire Us!
+              </a>
+            </div>
+          </div>
+        </section>
         <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
           <div className="col-md-4">
             <span className="text-light">© 2024 Developeight</span>
           </div>
-
           <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
             <li className="ms-3">
               <a className="text-light" href="#">

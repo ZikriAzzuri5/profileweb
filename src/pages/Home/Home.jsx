@@ -16,8 +16,8 @@ export const Home = () => {
             <div className="col-lg-6">
               <h1 className="fw-bold lh-base">
                 Menyederhanakan{" "}
-                <span className="d-inline-block text-dark">Inovasi,</span>
-                {" "}Menguatkan{" "}
+                <span className="d-inline-block text-dark">Inovasi,</span>{" "}
+                Menguatkan{" "}
                 <span className="d-inline-block text-dark">Digital Anda.</span>
               </h1>
               <p className="text-body-secondary lh-lg">
@@ -304,24 +304,6 @@ export const Home = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section className="bg-dark bg-wave">
-        <div className="container">
-          <div className="max-w-md mx-auto py-5 text-center">
-            <h1 className="verybig-title fw-bold lh-base mt-4 mb-4">
-              Build Something Impactful Today, Better.
-            </h1>
-            <p className="text-light fs-5 lh-base mb-5">
-              We’re offer services that deliver exceptional results. With years
-              of experience, strong work ethics, and attention to detail,
-              Developeight is the freelancer you can trust to exceed your
-              expectations.
-            </p>
-            <a href="#" className="btn btn-light btn-lg fw-semibold mb-5">
-              Hire Us!
-            </a>
           </div>
         </div>
       </section>
