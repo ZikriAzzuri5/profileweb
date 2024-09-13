@@ -3,17 +3,20 @@ import logo from "../../assets/logo.svg";
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
-  const currentRoute = window.location.pathname === "/" ? "home" : window.location.pathname.replace("/", "");
+  const currentRoute =
+    window.location.pathname === "/"
+      ? "home"
+      : window.location.pathname.replace("/", "");
   const [activeSection, setActiveSection] = useState(currentRoute);
 
   const handleSetActive = (section) => {
     setActiveSection(section);
   };
- 
+
   return (
     <nav className="navbar navbar-expand-lg bg-light sticky-top">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           <img src={logo} alt="Logo" />
         </a>
         <button
@@ -31,7 +34,11 @@ export const Navbar = () => {
           <ul className="navbar-nav ms-auto fw-semibold">
             <li className="nav-item me-4">
               {currentRoute !== "home" ? (
-                <Link to="/" className="nav-link" onClick={() => handleSetActive("home")}>
+                <Link
+                  to="/"
+                  className="nav-link"
+                  onClick={() => handleSetActive("home")}
+                >
                   Home
                 </Link>
               ) : (
@@ -48,7 +55,11 @@ export const Navbar = () => {
             </li>
             <li className="nav-item me-4">
               {currentRoute !== "home" ? (
-                <Link to="/" className="nav-link" onClick={() => handleSetActive("home")}>
+                <Link
+                  to="/"
+                  className="nav-link"
+                  onClick={() => handleSetActive("home")}
+                >
                   About
                 </Link>
               ) : (
@@ -65,9 +76,13 @@ export const Navbar = () => {
             </li>
             <li className="nav-item me-4">
               {currentRoute !== "home" ? (
-                <Link to="/" className={`nav-link ${
-                  currentRoute === "projects" ? "active fw-bold" : ""
-                } `} onClick={() => handleSetActive("home")}>
+                <Link
+                  to="/"
+                  className={`nav-link ${
+                    currentRoute === "projects" ? "active fw-bold" : ""
+                  } `}
+                  onClick={() => handleSetActive("home")}
+                >
                   Projects
                 </Link>
               ) : (
@@ -84,7 +99,11 @@ export const Navbar = () => {
             </li>
             <li className="nav-item me-4">
               {currentRoute !== "home" ? (
-                <Link to="/" className="nav-link" onClick={() => handleSetActive("home")}>
+                <Link
+                  to="/"
+                  className="nav-link"
+                  onClick={() => handleSetActive("home")}
+                >
                   FAQ
                 </Link>
               ) : (
@@ -100,9 +119,13 @@ export const Navbar = () => {
               )}
             </li>
             <li className="nav-item me-4">
-              <Link to="/contact" className={`nav-link ${
-                    activeSection === "contact" ? "active fw-bold" : ""
-                  } `} onClick={() => handleSetActive("contact")}>
+              <Link
+                to="/contact"
+                className={`nav-link ${
+                  activeSection === "contact" ? "active fw-bold" : ""
+                } `}
+                onClick={() => handleSetActive("contact")}
+              >
                 Contact
               </Link>
             </li>

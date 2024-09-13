@@ -120,8 +120,6 @@ h6 {
     border-top-right-radius: 0.375rem;
   }
 }
-<<<<<<< HEAD
-=======
 
 // RESPONSIVE
 
@@ -132,15 +130,18 @@ h6 {
   //   font-size: 1.75rem;
   // }
 
-  @media (max-width: 992px) { // Untuk layar menengah (misal tablet)
+  @media (max-width: 992px) {
+    // Untuk layar menengah (misal tablet)
     font-size: 1.5rem;
   }
 
-  @media (max-width: 768px) { // Untuk layar kecil (misal ponsel)
+  @media (max-width: 768px) {
+    // Untuk layar kecil (misal ponsel)
     font-size: 1.25rem;
   }
 
-  @media (max-width: 576px) { // Untuk layar sangat kecil (misal ponsel kecil)
+  @media (max-width: 576px) {
+    // Untuk layar sangat kecil (misal ponsel kecil)
     font-size: 1rem;
   }
 }
@@ -152,17 +153,19 @@ h6 {
   //   font-size: 40px;
   // }
 
-  @media (max-width: 992px) { // Untuk layar menengah (misal tablet)
+  @media (max-width: 992px) {
+    // Untuk layar menengah (misal tablet)
     font-size: 36px;
   }
 
-  @media (max-width: 768px) { // Untuk layar kecil (misal ponsel)
+  @media (max-width: 768px) {
+    // Untuk layar kecil (misal ponsel)
     font-size: 32px;
   }
 
-  @media (max-width: 576px) { // Untuk layar sangat kecil (misal ponsel kecil)
+  @media (max-width: 576px) {
+    // Untuk layar sangat kecil (misal ponsel kecil)
     // font-size: 1rem;
     font-size: 20px;
   }
 }
->>>>>>> 0093dcef10802905148091c874834ae337206efd
