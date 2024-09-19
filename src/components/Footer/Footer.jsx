@@ -9,10 +9,12 @@ export const Footer = () => {
             Build Something Impactful Today, Better.
           </h1>
           <p className="text-light fs-5 lh-base mb-5">
-            <span className="my-text">We’re offer services that deliver exceptional results. With years of
-            experience, strong work ethics, and attention to detail,
-            Developeight is the freelancer you can trust to exceed your
-            expectations.</span>
+            <span className="my-text">
+              We’re offer services that deliver exceptional results. With years
+              of experience, strong work ethics, and attention to detail,
+              Developeight is the freelancer you can trust to exceed your
+              expectations.
+            </span>
           </p>
           <a href="#" className="btn btn-light btn-lg my-text fw-semibold mb-5">
             Hire Us!
@@ -23,12 +25,15 @@ export const Footer = () => {
         <div className="container">
           <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
             <div className="col-md-4">
-              <span className="text-light">© 2024 Developer Eight</span>
+              <span className="text-light">© 2024 Developeight</span>
             </div>
 
             <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
               <li className="ms-3">
-                <a className="text-light" href="#">
+                <a
+                  className="text-light"
+                  href="https://www.instagram.com/developeight.bdg/"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
