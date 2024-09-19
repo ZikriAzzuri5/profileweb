@@ -16,7 +16,10 @@ export const Footer = () => {
               expectations.
             </span>
           </p>
-          <a href="#" className="btn btn-light btn-lg my-text fw-semibold mb-5">
+          <a
+            href="/contact"
+            className="btn btn-light btn-lg my-text fw-semibold mb-5"
+          >
             Hire Us!
           </a>
         </div>
