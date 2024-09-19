@@ -36,6 +36,7 @@ export const Footer = () => {
                 <a
                   className="text-light"
                   href="https://www.instagram.com/developeight.bdg/"
+                  target="_blank"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

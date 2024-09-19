@@ -83,10 +83,10 @@ export const Home = () => {
         <div className="py-5">
           <div className="d-flex mb-5 justify-content-between align-items-center">
             <div>
-              <p className="mb-3 fw-semibold fs-5">Showcase</p>
-              <h1 className="fw-bold text-dark">Our Best Projects</h1>
+              <p className="mb-3 fw-semibold fs-5"><span className="my-text">Showcase</span></p>
+              <h1 className="fw-bold text-dark my-heading-1">Our Best Projects</h1>
             </div>
-            <a href="/projects" className="fw-semibold text-dark">
+            <a href="/projects" className="fw-semibold text-dark my-text">
               View All
               <svg
                 xmlns="http://www.w3.org/2000/svg"
