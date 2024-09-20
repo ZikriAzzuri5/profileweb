@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
     localStorage.setItem("darkMode", !darkMode);
   };
   return (
-    <div className={darkMode ? "bg-dark text-white" : "bg-light text-dark"}>
+    <div className={darkMode ? "dark-mode bg-dark text-white" : "bg-light text-dark"}>
       <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
       {children}
       <Footer />

@@ -16,9 +16,9 @@ export const Home = () => {
             <div className="col-lg-6">
               <h1 className="fw-bold lh-base">
                 Simplifying{" "}
-                <span className="d-inline-block text-dark">Innovation,</span>{" "}
+                <span className="d-inline-block text-dark text-hightlight">Innovation,</span>{" "}
                 Powering{" "}
-                <span className="d-inline-block text-dark">Your Digital.</span>
+                <span className="d-inline-block text-dark text-hightlight">Your Digital.</span>
               </h1>
               <p className="text-body-secondary lh-lg">
                 Customized web and app development services for individuals and
@@ -84,7 +84,7 @@ export const Home = () => {
           <div className="d-flex mb-5 justify-content-between align-items-center">
             <div>
               <p className="mb-3 fw-semibold fs-5"><span className="my-text">Showcase</span></p>
-              <h1 className="fw-bold text-dark my-heading-1">Our Best <br/> Projects</h1>
+              <h1 className="text-title fw-bold text-dark my-heading-1">Our Best <br /> Projects</h1>
             </div>
             <a href="/projects" className="fw-semibold text-dark my-text">
               View All

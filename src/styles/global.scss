@@ -113,6 +113,15 @@ h6 {
   border: 2px solid rgba(33, 37, 41, 0.05);
 }
 
+.dark-mode .hero p, .dark-mode .text-hightlight, .dark-mode #projects .text-title, .dark-mode #projects a, .dark-mode #faq h1, .dark-mode #contact .text-hightlight, .dark-mode #contact p, .dark-mode .navbar ul li a {
+  color: $dark-text-color !important;
+}
+
+.dark-mode .hero .btn-dark {
+  background-color: $background-color !important;
+  color: $text-color !important;
+}
+
 //media query for mobile
 @media only screen and (max-width: 768px) {
   .thumbnail {

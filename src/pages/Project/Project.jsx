@@ -5,9 +5,9 @@ import person1 from "../../assets/person-1.jpg";
 
 export const Project = () => {
   return (
-    <div className="container">
+    <div id="projects" className="container">
       <div className="py-5">
-        <h1 className="fw-bold text-dark mb-4">Our Projects</h1>
+        <h1 className="text-title fw-bold text-dark mb-4">Our Projects</h1>
         <div className="card border-0 mb-5">
           <div className="row g-0">
             <div className="col-md-7">
