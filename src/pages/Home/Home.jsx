@@ -84,7 +84,7 @@ export const Home = () => {
           <div className="d-flex mb-5 justify-content-between align-items-center">
             <div>
               <p className="mb-3 fw-semibold fs-5"><span className="my-text">Showcase</span></p>
-              <h1 className="fw-bold text-dark my-heading-1">Our Best Projects</h1>
+              <h1 className="fw-bold text-dark my-heading-1">Our Best <br/> Projects</h1>
             </div>
             <a href="/projects" className="fw-semibold text-dark my-text">
               View All

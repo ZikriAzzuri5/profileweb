@@ -37,7 +37,7 @@ export const Contact = () => {
                 <div className="row align-items-center py-5">
                     <div className="col-lg-8">
                         <h1 className="fw-semibold medium-title my-heading1"><span className="text-dark">Let us help you to solve the</span> problem.</h1>
-                        <p className="text-muted fs-4 lh-base mt-3 my-text">Start from research to working on the real-world projects that impactful</p>
+                        <p className="text-muted fs-4 lh-base mt-3"><span className='my-text'>Start from research to working on the real-world projects that impactful</span></p>
                     </div>
                     <div className="col-lg-4">
                         <div className="card rounded border-0">
