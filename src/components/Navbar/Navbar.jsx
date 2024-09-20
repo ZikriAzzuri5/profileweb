@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import logo from "../../assets/logo.svg";
 import { Link } from "react-router-dom";
+import { FaSun, FaMoon } from "react-icons/fa";
 
-export const Navbar = () => {
+export const Navbar = ({ toggleDarkMode, darkMode }) => {
   const currentRoute =
     window.location.pathname === "/"
       ? "home"
@@ -14,7 +15,11 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg bg-light sticky-top">
+    <nav
+      className={`navbar navbar-expand-lg ${
+        darkMode ? "bg-dark text-white" : "bg-light text-dark"
+      } sticky-top`}
+    >
       <div className="container">
         <a className="navbar-brand" href="/">
           <img src={logo} alt="Logo" />
@@ -130,6 +135,12 @@ export const Navbar = () => {
               </Link>
             </li>
           </ul>
+          <button
+            onClick={toggleDarkMode}
+            className={`btn btn-outline-${darkMode ? "light" : "dark"} ms-3`}
+          >
+            {darkMode ? <FaSun /> : <FaMoon />}
+          </button>
         </div>
       </div>
     </nav>
