@@ -16,25 +16,32 @@ export const Navbar = ({ toggleDarkMode, darkMode }) => {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg ${
-        darkMode ? "bg-dark text-white" : "bg-light text-dark"
-      } sticky-top`}
+      className={`navbar navbar-expand-lg ${darkMode ? "bg-dark text-white" : "bg-light text-dark"
+        } sticky-top`}
     >
       <div className="container">
         <a className="navbar-brand" href="/">
           <img src={logo} alt="Logo" />
         </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+        <div className="d-flex gap-2">
+          <button
+            onClick={toggleDarkMode}
+            className={`btn btn-outline-${darkMode ? "light" : "dark"} d-block d-lg-none ms-3`}
+          >
+            {darkMode ? <FaSun /> : <FaMoon />}
+          </button>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+        </div>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto fw-semibold">
             <li className="nav-item me-4">
@@ -48,9 +55,8 @@ export const Navbar = ({ toggleDarkMode, darkMode }) => {
                 </Link>
               ) : (
                 <a
-                  className={`nav-link ${
-                    activeSection === "home" ? "active fw-bold" : ""
-                  } `}
+                  className={`nav-link ${activeSection === "home" ? "active fw-bold" : ""
+                    } `}
                   href="#home"
                   onClick={() => handleSetActive("home")}
                 >
@@ -69,9 +75,8 @@ export const Navbar = ({ toggleDarkMode, darkMode }) => {
                 </Link>
               ) : (
                 <a
-                  className={`nav-link ${
-                    activeSection === "about" ? "active fw-bold" : ""
-                  } `}
+                  className={`nav-link ${activeSection === "about" ? "active fw-bold" : ""
+                    } `}
                   href="#about"
                   onClick={() => handleSetActive("about")}
                 >
@@ -83,18 +88,16 @@ export const Navbar = ({ toggleDarkMode, darkMode }) => {
               {currentRoute !== "home" ? (
                 <Link
                   to="/"
-                  className={`nav-link ${
-                    currentRoute === "projects" ? "active fw-bold" : ""
-                  } `}
+                  className={`nav-link ${currentRoute === "projects" ? "active fw-bold" : ""
+                    } `}
                   onClick={() => handleSetActive("home")}
                 >
                   Projects
                 </Link>
               ) : (
                 <a
-                  className={`nav-link ${
-                    activeSection === "projects" ? "active fw-bold" : ""
-                  } `}
+                  className={`nav-link ${activeSection === "projects" ? "active fw-bold" : ""
+                    } `}
                   href="#projects"
                   onClick={() => handleSetActive("projects")}
                 >
@@ -113,9 +116,8 @@ export const Navbar = ({ toggleDarkMode, darkMode }) => {
                 </Link>
               ) : (
                 <a
-                  className={`nav-link ${
-                    activeSection === "faq" ? "active fw-bold" : ""
-                  } `}
+                  className={`nav-link ${activeSection === "faq" ? "active fw-bold" : ""
+                    } `}
                   href="#faq"
                   onClick={() => handleSetActive("faq")}
                 >
@@ -126,9 +128,8 @@ export const Navbar = ({ toggleDarkMode, darkMode }) => {
             <li className="nav-item me-4">
               <Link
                 to="/contact"
-                className={`nav-link ${
-                  activeSection === "contact" ? "active fw-bold" : ""
-                } `}
+                className={`nav-link ${activeSection === "contact" ? "active fw-bold" : ""
+                  } `}
                 onClick={() => handleSetActive("contact")}
               >
                 Contact
@@ -137,7 +138,7 @@ export const Navbar = ({ toggleDarkMode, darkMode }) => {
           </ul>
           <button
             onClick={toggleDarkMode}
-            className={`btn btn-outline-${darkMode ? "light" : "dark"} ms-3`}
+            className={`btn btn-outline-${darkMode ? "light" : "dark"} d-none d-lg-block ms-3`}
           >
             {darkMode ? <FaSun /> : <FaMoon />}
           </button>
