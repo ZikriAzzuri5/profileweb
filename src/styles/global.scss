@@ -113,7 +113,14 @@ h6 {
   border: 2px solid rgba(33, 37, 41, 0.05);
 }
 
-.dark-mode .hero p, .dark-mode .text-hightlight, .dark-mode #projects .text-title, .dark-mode #projects a, .dark-mode #faq h1, .dark-mode #contact .text-hightlight, .dark-mode #contact p, .dark-mode .navbar ul li a {
+.dark-mode .hero p,
+.dark-mode .text-hightlight,
+.dark-mode #projects .text-title,
+.dark-mode #projects a,
+.dark-mode #faq h1,
+.dark-mode #contact .text-hightlight,
+.dark-mode #contact p,
+.dark-mode .navbar ul li a {
   color: $dark-text-color !important;
 }
 
@@ -135,7 +142,8 @@ h6 {
 .my-text {
   // font-size: 1.75rem; // Default font-size untuk layar besar
 
-  @media (max-width: 1200px) { // Untuk layar besar (misal laptop)
+  @media (max-width: 1200px) {
+    // Untuk layar besar (misal laptop)
     font-size: 1.75rem;
   }
 
@@ -175,6 +183,8 @@ h6 {
   @media (max-width: 576px) {
     // Untuk layar sangat kecil (misal ponsel kecil)
     // font-size: 1rem;
-    font-size: 27px;
+    // font-size: 27px;
+    font-size: 32px; // Sesuaikan ukuran font
+    line-height: 1.3; // Menambahkan jarak antar baris
   }
 }
