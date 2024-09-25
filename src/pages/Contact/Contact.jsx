@@ -28,7 +28,6 @@ export const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    //url whatsapp api untuk mengirim pesan
     window.open(
       `https://api.whatsapp.com/send?phone=6281241659884&text=Halo nama saya ${name}, saya tertarik untuk menggunakan jasa membuat website dari Develeopeight. Saya mempunyai budget ${budget} dan ingin membuat website seperti berikut ini:%0A${message}`
     );

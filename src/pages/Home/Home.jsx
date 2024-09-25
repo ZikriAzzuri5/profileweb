@@ -16,9 +16,13 @@ export const Home = () => {
             <div className="col-lg-6">
               <h1 className="fw-bold lh-base">
                 Simplifying{" "}
-                <span className="d-inline-block text-dark text-hightlight">Innovation,</span>{" "}
+                <span className="d-inline-block text-dark text-hightlight">
+                  Innovation,
+                </span>{" "}
                 Powering{" "}
-                <span className="d-inline-block text-dark text-hightlight">Your Digital.</span>
+                <span className="d-inline-block text-dark text-hightlight">
+                  Your Digital.
+                </span>
               </h1>
               <p className="text-body-secondary lh-lg">
                 Customized web and app development services for individuals and
@@ -83,8 +87,12 @@ export const Home = () => {
         <div className="py-5">
           <div className="d-flex mb-5 justify-content-between align-items-center">
             <div>
-              <p className="mb-3 fw-semibold fs-5"><span className="my-text">Showcase</span></p>
-              <h1 className="text-title fw-bold text-dark my-heading-1">Our Best <br /> Projects</h1>
+              <p className="mb-3 fw-semibold fs-5">
+                <span className="my-text">Showcase</span>
+              </p>
+              <h1 className="text-title fw-bold text-dark my-heading-1">
+                Our Best <br /> Projects
+              </h1>
             </div>
             <a href="/projects" className="fw-semibold text-dark my-text">
               View All
@@ -174,7 +182,7 @@ export const Home = () => {
                       aria-expanded="false"
                       aria-controls="flush-collapseOne"
                     >
-                      How do we work?
+                      What is DevelopEight?
                     </button>
                   </h2>
                   <div
@@ -183,32 +191,10 @@ export const Home = () => {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div className="accordion-body">
-                      <b>1. Understanding Your Needs</b> <br />
-                      We begin by thoroughly understanding your business goals
-                      and project requirements to tailor a solution that fits
-                      perfectly.
-                      <br />
-                      <br />
-                      <b>2. Planning and Design</b> <br />
-                      Our team crafts a detailed plan and designs user-friendly
-                      interfaces to align with your vision and functionality
-                      needs.
-                      <br />
-                      <br />
-                      <b>3. Development and Testing</b> <br />
-                      Utilizing cutting-edge technology, we develop robust
-                      solutions while continuously testing to ensure seamless
-                      performance.
-                      <br />
-                      <br />
-                      <b>4. Deployment and Support</b> <br />
-                      After rigorous testing, we deploy the solution and provide
-                      ongoing support to ensure smooth operations post-launch.
-                      <br />
-                      <br />
-                      This approach allows us to deliver tailored software
-                      solutions that drive growth and efficiency for your
-                      business.
+                      Developeight is a company that offers website, mobile, and
+                      desktop application development services, along with IT
+                      consulting to help businesses undergo digital
+                      transformation.
                     </div>
                   </div>
                 </div>
@@ -222,7 +208,7 @@ export const Home = () => {
                       aria-expanded="false"
                       aria-controls="flush-collapseTwo"
                     >
-                      What does the client need to prepare?
+                      What services do you offer?
                     </button>
                   </h2>
                   <div
@@ -231,13 +217,23 @@ export const Home = () => {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div className="accordion-body">
-                      Before starting a project, clients should prepare a
-                      Project Requirements Document. This document will contain
-                      details of the desired features, estimated costs, and
-                      estimated construction time. This information will be very
-                      helpful in preparing project plans that are more precise
-                      and according to needs, so that the final results can
-                      satisfy all parties.
+                      <b>1. Website Development</b> <br />
+                      Custom websites, e-commerce solutions, and web
+                      applications.
+                      <br />
+                      <br />
+                      <b>2. Mobile & Desktop App Development</b> <br />
+                      Applications for Android, iOS, and desktop platforms.
+                      <br />
+                      <br />
+                      <b>3. IT Consulting</b> <br />
+                      Digital strategy and technology solutions.
+                      <br />
+                      <br />
+                      <b>4. Maintenance & Support</b> <br />
+                      Ensuring your applications run smoothly.
+                      <br />
+                      <br />
                     </div>
                   </div>
                 </div>
@@ -251,7 +247,7 @@ export const Home = () => {
                       aria-expanded="false"
                       aria-controls="flush-collapseThree"
                     >
-                      Do you accept long-term projects?
+                      How can I start a project?
                     </button>
                   </h2>
                   <div
@@ -260,46 +256,12 @@ export const Home = () => {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div className="accordion-body">
-                      Yes, we are happy to accept long-term projects. As a
-                      software house, we want to build long-term relationships
-                      with our clients by providing customized, high-quality
-                      software solutions. We focus on understanding your needs
-                      and ensuring consistent communication throughout our team
-                      is committed to meeting deadlines and adapting to evolving
-                      requirements, ensuring the long-term success of your
-                      initiatives.
+                      Contact us via email or fill out the form on our website.
+                      We’ll discuss your needs and provide tailored solutions.
                     </div>
                   </div>
                 </div>
-                <div className="accordion-item">
-                  <h2 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseFour"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseFour"
-                    >
-                      Can you work in an office?
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseFour"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div className="accordion-body">
-                      I can work in the office, but in the context of a software
-                      house, I am very supportive of working, including remote
-                      options. With today's technology and collaboration tools,
-                      work can be done well from anywhere, as long as
-                      communication remains smooth and targets are met. If
-                      necessary, I am also available to work from the office to
-                      support the team more effectively.
-                    </div>
-                  </div>
-                </div>
+
                 <div className="accordion-item">
                   <h2 className="accordion-header">
                     <button
@@ -310,7 +272,7 @@ export const Home = () => {
                       aria-expanded="false"
                       aria-controls="flush-collapseFive"
                     >
-                      Reasons why you have recruit me?
+                      Does DevelopEight offer custom solutions?
                     </button>
                   </h2>
                   <div
@@ -319,16 +281,8 @@ export const Home = () => {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div className="accordion-body">
-                      You should hire us because we want to contribute to the
-                      growth of the software house by bringing my expertise in
-                      software development, problem solving skills and
-                      adaptability to new technologies. While your company is
-                      still in its early stages, I can help build a strong
-                      technical foundation, collaborate effectively with the
-                      team, and ensure that we deliver high-quality solutions.
-                      My passion for innovation and commitment to excellence
-                      will support your vision as we face the challenges of a
-                      competitive marketplace.
+                      Yes, we design solutions to meet the unique needs of each
+                      client, supporting their business goals.
                     </div>
                   </div>
                 </div>
@@ -337,24 +291,6 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      {/* <section className="bg-dark bg-wave">
-        <div className="container">
-          <div className="max-w-md mx-auto py-5 text-center">
-            <h1 className="verybig-title fw-bold lh-base mt-4 mb-4">
-              Build Something Impactful Today, Better.
-            </h1>
-            <p className="text-light fs-5 lh-base mb-5">
-              We’re offer services that deliver exceptional results. With years
-              of experience, strong work ethics, and attention to detail,
-              Developeight is the freelancer you can trust to exceed your
-              expectations.
-            </p>
-            <a href="#" className="btn btn-light btn-lg fw-semibold mb-5">
-              Hire Us!
-            </a>
-          </div>
-        </div>
-      </section> */}
     </>
   );
 };
