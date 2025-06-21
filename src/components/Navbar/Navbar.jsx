@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/logo.webp";
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
@@ -17,7 +17,7 @@ export const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-light sticky-top">
       <div className="container">
         <a className="navbar-brand" href="/">
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" width={28} />
         </a>
         <button
           className="navbar-toggler"
@@ -79,21 +79,21 @@ export const Navbar = () => {
                 <Link
                   to="/"
                   className={`nav-link ${
-                    currentRoute === "projects" ? "active fw-bold" : ""
+                    currentRoute === "portfolio" ? "active fw-bold" : ""
                   } `}
                   onClick={() => handleSetActive("home")}
                 >
-                  Projects
+                  Portfolio
                 </Link>
               ) : (
                 <a
                   className={`nav-link ${
-                    activeSection === "projects" ? "active fw-bold" : ""
+                    activeSection === "portfolio" ? "active fw-bold" : ""
                   } `}
-                  href="#projects"
-                  onClick={() => handleSetActive("projects")}
+                  href="#portfolio"
+                  onClick={() => handleSetActive("portfolio")}
                 >
-                  Projects
+                  Portfolio
                 </a>
               )}
             </li>

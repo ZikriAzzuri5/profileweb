@@ -5,7 +5,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Footer } from "./components/Footer/Footer";
 import { NotFound } from "./pages/NotFound/NotFound";
 import { Contact } from "./pages/Contact/Contact";
-import { Project } from "./pages/Project/Project";
+import { Portfolio } from "./pages/Portfolio/Portfolio";
 
 const Layout = ({ children }) => {
   return (
@@ -15,13 +15,41 @@ const Layout = ({ children }) => {
       <Footer />
     </div>
   );
-}
+};
 
 const router = createBrowserRouter([
-  { path: "/", element: <Layout><Home /></Layout> },
-  { path: "*", element: <Layout><NotFound /></Layout> },
-  { path: "/contact", element: <Layout><Contact /></Layout> },
-  { path: "/projects", element: <Layout><Project /></Layout> },
+  {
+    path: "/",
+    element: (
+      <Layout>
+        <Home />
+      </Layout>
+    ),
+  },
+  {
+    path: "*",
+    element: (
+      <Layout>
+        <NotFound />
+      </Layout>
+    ),
+  },
+  {
+    path: "/contact",
+    element: (
+      <Layout>
+        <Contact />
+      </Layout>
+    ),
+  },
+  {
+    path: "/portfolio",
+    element: (
+      <Layout>
+        <Portfolio />
+      </Layout>
+    ),
+  },
 ]);
 
 function App() {
